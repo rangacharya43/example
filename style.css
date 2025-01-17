@@ -59,6 +59,17 @@ background-size: cover;
 background-position: center;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero h1 {
+      font-size: 2.5rem;
+  }
+  
+  .service-card {
+      margin-bottom: 2rem;
+  }
+}
+
 .about .play-button {
   position: absolute;
   bottom: 20px;
@@ -156,17 +167,6 @@ background-position: center;
 }
 
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .hero h1 {
-      font-size: 2.5rem;
-  }
-  
-  .service-card {
-      margin-bottom: 2rem;
-  }
-}
-
 /* hover-effects */
 i{
 transition: all 0.3s ease-in-out;
@@ -174,8 +174,8 @@ transition: all 0.3s ease-in-out;
 
 i:hover{
   transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
+
 
 .cases-cards{
 transition: transform 0.3s ease-in-out;
@@ -194,6 +194,8 @@ transition: transform 0.3s ease-in-out;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+
+
 .news-card{
 transition: transform 0.3s ease-in-out;
 }
@@ -202,20 +204,11 @@ transform: translateY(-10px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* choose us  hover effects */
-.icon-box i{
-transition: all 0.3s ease-in-out;
-}
 
-.icon-box i:hover {
-transform: translateY(-10px);
-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-.image-section img {
+.choose-us-img img {
 transition: transform 0.3s ease-in-out;
 }
 
-.image-section img:hover {
+.choose-us-img img:hover {
 transform: scale(1.05);
 }
