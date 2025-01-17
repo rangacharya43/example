@@ -28,6 +28,17 @@ body {
   font-weight: bold;
 }
 
+@media (max-width: 768px) {
+  .mid-wel h5 {
+    font-size: 15px; 
+  }
+
+  .mid-wel p {
+    font-size: 10px; 
+ }
+  
+}
+
 /* Hero Section */
 
 .hero {
