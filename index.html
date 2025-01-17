@@ -12,7 +12,7 @@
 
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid d-none d-lg-block">
         <div class="row top-section text-center bg-success text-light p-3"> <!--background-color: #8BC34A;-->
             <div class="col-md-6">
                 Providing awesome since 2004 years
@@ -39,9 +39,9 @@
                 </div>
             </div>
 
-            <div class="col-sm-7 col-2">
+            <div class="col-sm-7">
                 <button class="toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#mid-info">
-                    <span class="navbar-toggler-icon" style="color: green;"></span>
+                    <i class="fa-solid fa-bars fa-xl" style="color: green;"></i>
                 </button>
             
                 <div class="collapse d-md-block" id="mid-info">
@@ -167,16 +167,17 @@
     <!-- About-us section -->
     <div class=" about container py-5" id="about">
         <div class="row">
-          <div class="col-md-6 position-relative">
-            <img src="./images/ab-05.jpg" alt="Two children holding hands in a natural setting" class="img-fluid rounded">  
+          <div class="col-md-4 position-relative">
+            <img src="./images/ab-05.jpg" alt="Two children holding hands in a natural setting" class="img-fluid rounded" style="height: 550px;">  
             <!--https://storage.googleapis.com/a1aa/image/sfiYDIUmV63pN6QBpBhzwbZdq6ZomEf0Q6IocqBx3e1LPPFoA.jpg-->
             <div class="play-button">
               <i class="fas fa-play"></i> Want to Watch How We Work
             </div>
           </div>         
-          <div class="col-md-6">
-            <h1 class="text-success mb-0"><b>ABOUT US</b></h1>
-            <h2 class="display-4 my-3">We are Taking Small Steps to Make Earth Better Planet</h2>
+          <div class="col-md-8">
+            <h2 class="display-4 text-success">About-us</h2>
+            <hr style="width: 50px; border: 2px solid #28a745;"/>
+            <h3 class="display-4 my-3">We are Taking Small Steps to Make Earth Better Planet</h3>
             <p class="text-muted lead">
               One of the serious issues faced by our modern world is environmental pollution, and it is one of the most significant challenges that the world is facing today. Environmental pollution has existed for centuries.
             </p>
@@ -226,7 +227,8 @@
 
     <!-- resent-cases -->
     <div class="container py-5">
-        <h2 class="text-3xl font-weight-bold text-dark mb-4">Our Recent Causes</h2>
+        <h2 class="display-4">Our Recent Cases</h2>
+            <hr style="width: 50px; border: 2px solid #28a745;"/>
         <div class="h-1 w-16 bg-success mb-4"></div>
         <div class="row g-4">
             
@@ -263,7 +265,7 @@
             <div class="col-12 col-md-4">
                 <div class="card cases-cards bg-white border rounded p-4 ">
                     <div class="d-flex align-items-center">
-                        <img alt="A white tiger" class="w-16 h-16  m-4" height="82" src="https://img.freepik.com/free-photo/white-bengal-tiger-wilderness_23-2151528388.jpg?t=st=1736355323~exp=1736358923~hmac=9d8ca2be242667b0cc440e4008b2bf0b310ea60a3bcc015cf545ee0776fec55d&w=1380" width="82"/>
+                        <img alt="A white tiger" class="w-16 h-16  m-2" height="82" src="https://img.freepik.com/free-photo/white-bengal-tiger-wilderness_23-2151528388.jpg?t=st=1736355323~exp=1736358923~hmac=9d8ca2be242667b0cc440e4008b2bf0b310ea60a3bcc015cf545ee0776fec55d&w=1380" width="82"/>
                     <h2 class="h5 font-weight-bold text-dark mb-2 hover:text-white"><b>Save The White Tigers</b></h2>
                     </div>
                     <p class="text-muted mb-4 hover:text-white">There are many variations of passages of Lorem Ipsum available.</p>
@@ -282,7 +284,8 @@
      <!-- Services Section -->
      <section id="services" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-5">Our Services</h2>
+            <h2 class="display-4">Our Services</h2>
+            <hr style="width: 50px; border: 2px solid #28a745;"/>
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="service-card">
@@ -334,7 +337,8 @@
     <!-- Upcoming Events -->
     <section class=" container my-5">
         <div class="section-title">
-            <h2 class="text-green text-center font-weight-bold">Upcoming Events</h2>
+            <h2 class="display-4">Upcoming Events</h2>
+            <hr style="width: 50px; border: 2px solid #28a745;"/>
             <div class="underline"></div>
         </div>
         <div class="row">
@@ -348,7 +352,7 @@
                     </div>
                     <div class="card-body event-body">
                         <h4 class="card-title"><b>Native Tree Planting Contest</b></h4>
-                        <a href="#"><b>READ MORE</b> <i class="fas fa-arrow-right"></i></a>
+                        <a class="text-success" href="#" ><b>READ MORE</b> <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -363,7 +367,7 @@
                     </div>
                     <div class="card-body event-body">
                         <h4 class="card-title"><b>Environment Property Manage</b></h4>
-                        <a href="#"><b>READ MORE</b> <i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="text-success"><b>READ MORE</b> <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -378,7 +382,7 @@
                     </div>
                     <div class="card-body event-body co">
                         <h4 class="card-title"><b>Green Nature Love &amp; Chemistry</b></h4>
-                        <a href="#"><b>READ MORE </b><i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="text-success"><b>READ MORE </b><i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -388,12 +392,13 @@
 
     <!-- Projects Section -->
     <section id="projects" class="bg-light py-5">
-        <div class="container ">
-            <h2 class="text-center mb-5">Recent Projects</h2>
+        <div class="container">
+            <h2 class="display-4">Recent Projects</h2>
+            <hr style="width: 50px; justify-content: center; border: 2px solid #28a745;"/>
             <div class="d-flex overflow-auto flex-nowrap" style="gap: 15px;">
                 <div class="col-md-4 mb-4">
                     <div class="card project-card">
-                        <img src="./images/p-01.jpg" class="card-img-top" alt="Project 1">
+                        <img src="./images/p-01.jpg" class="card-img-top" alt="Project 1" style="height: 400px;">
                         <div class="card-body">
                             <h5 class="card-title">Solar Farm Project</h5>
                             <p class="card-text">Large scale solar installation providing clean energy to thousands of homes.</p>
@@ -402,7 +407,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card project-card">
-                        <img src="./images/wind-mills.jpg" class="card-img-top" alt="Project 2">
+                        <img src="./images/wind-mills.jpg" class="card-img-top" alt="Project 2"  style="height: 400px;">
                         <div class="card-body">
                             <h5 class="card-title">Wind Turbine Installation</h5>
                             <p class="card-text">Offshore wind farm powering coastal communities with renewable energy.</p>
@@ -411,7 +416,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card project-card">
-                        <img src="./images/energy-storage.jpg" class="card-img-top" alt="Project 3">
+                        <img src="./images/energy-storage.jpg" class="card-img-top" style="height: 400px;" alt="Project 3">
                         <div class="card-body">
                             <h5 class="card-title">Energy Storage Facility</h5>
                             <p class="card-text">State-of-the-art battery storage system for grid stabilization.</p>
@@ -420,7 +425,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card project-card">
-                        <img src="./images/bio gas.png" class="card-img-top bg-success" alt="Project 4 ">
+                        <img src="./images/bio gas.png" class="card-img-top bg-success" alt="Project 4 " style="height: 400px;">
                         <div class="card-body">
                             <h5 class="card-title">Bio GAS Farm Project</h5>
                             <p class="card-text">Large scale BIO Gas providing for clean fuel for vehicals.</p>
@@ -429,7 +434,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card project-card">
-                        <img src="./images/resuable energy.jpg" class="card-img-top" alt="Project 5">
+                        <img src="./images/resuable energy.jpg" class="card-img-top" style="height: 400px;" alt="Project 5">
                         <div class="card-body">
                             <h5 class="card-title">Reusable Energy Storage Facility</h5>
                             <p class="card-text">State-of-the-art battery storage system for grid stabilization.</p>
@@ -438,7 +443,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card project-card">
-                        <img src="./images/water-turbine.jpg" class="card-img-top" alt="Project 6">
+                        <img src="./images/water-turbine.jpg" class="card-img-top" style="height: 400px;" alt="Project 6">
                         <div class="card-body">
                             <h5 class="card-title">Water Turbine Installation</h5>
                             <p class="card-text">whater turbines installation providing clean energy to thousands of homes.</p>
@@ -451,11 +456,11 @@
     </section>
 
 
-
     <!-- latest-News -->
     <div class="container my-5">
         <h2 class="text-center mb-4 ">
-            Latest News
+            <h2 class="display-4">latest-News</h2>
+            <hr style="width: 50px; border: 2px solid #28a745;"/>
         </h2>
         <div class="row">
             <div class="col-md-4 mb-4">
@@ -517,28 +522,92 @@
         </div>
     </div>
 
+    <!-- choose Us -->
+    <div class="choose-us container my-5 pt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="display-4">Why Choose Us</h2>
+                <hr style="width: 50px; border: 2px solid #28a745;"/>
+                <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+                </p>
+                <div class="d-flex align-items-center mb-4 icon-box">
+                    <i class="fa-solid fa-paw fa-2xl m-4" style="color: #28a745;"></i>
+                    <div>
+                        <h5>Ecology Today</h5>
+                        <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center mb-4 icon-box">
+                    <i class="fa-solid fa-seedling fa-2xl m-4" style="color: #28a745;"></i>
+                    <div>
+                        <h5>Environment Saving Technologies</h5>
+                        <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                    </div>   
+                </div>
+                <div class="d-flex align-items-center mb-4 icon-box">
+                    <i class="fa-brands fa-pagelines fa-2xl m-4" style="color: #28a745;"></i>
+                    <div>
+                        <h5>Plant Ecology</h5>
+                        <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 image-section">
+                <img alt="girl holding a green plant" src="./images/why-us.png" class="img-fluid rounded shadow-lg" style="height: 400px;"/>
+            </div>
+        </div>
+    </div> 
+
+
     <!-- Contact Section -->
-    <section id="contact" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">Contact Us</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
+    <div class="contact-us container my-5  pt-5" id="contact">
+        <h2 class="display-4">Chat With US</h2>
+        <hr style="width: 50px; border: 2px solid #28a745;"/>
+        <div class="row">
+            <div class="col-md-6 contact-info p-1">
+                <div class="mb-4 d-flex">
+                    <i class="fas fa-home fa-2xl m-3 " style="color: green;"></i>
+                    <div>
+                        <h4><b>Address</b></h4>
+                        <p>1234 rockstand Street,<br>Suite Rockstand, rockstand,</p>
+                    </div>
+                </div>
+                <div class="mb-4 d-flex">
+                    <i class="fas fa-headphones-alt fa-2xl m-3" style="color: green;"></i>
+                    <div>
+                        <h4><b>Phone</b></h4>
+                        <p>Phone: +(098) 7654-3210<br>Whatsapp: +(098) 765-4321<br>Fax: +098-123-4567</p>
+                    </div>
+                </div>
+                <div class="mb-4 d-flex">
+                    <i class="fas fa-envelope fa-2xl m-3" style="color: green;"></i>
+                    <div>
+                        <h4><b>Email</b></h4>
+                        <p>Email: support@greno.com<br>Skype: support.Greno</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="contact-form bg-success border rounded text-white p-4 ">
+                    <h2 class="my-4" ><b>Want to talk? Let's do it!</b></h2>
                     <form>
-                        <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Your Name">
+                        <div class="row mb-3 gap-1">
+                            <div class="col-md-6 ">
+                                <input type="text" class="form-control" placeholder="Your Name*" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Your Email*" required>
+                            </div>
                         </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Your Email">
-                        </div>
-                        <div class="mb-3">
-                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-success w-100">Send Message</button>
+                        <input type="text" class="form-control mb-4" placeholder="Website Url">
+                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                        <button type="submit" class="btn  rounded-5 bg-dark p-3 m-3 text-white">Submit Request</button>
                     </form>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     
     <!-- footer -->
@@ -561,7 +630,7 @@
                 <ul class="list-unstyled">
                     <li><a href="#" class="text-light">Home</a></li>
                     <li><a href="#" class="text-light">About</a></li>
-                    <li><a href="#" class="text- light">Services</a></li>
+                    <li><a href="#" class="text-light">Services</a></li>
                     <li><a href="#" class="text-light">Contact</a></li>
                 </ul>
             </div>
